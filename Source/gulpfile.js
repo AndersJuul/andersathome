@@ -48,5 +48,5 @@ gulp.task('bump', function(){
 gulp.task('publish', ['bump', 'build'], function () {
   return gulp.src(['**/*', '!bin{,/**}', '!src{,/**}', '!gulpfile.js'])
       .pipe(octo.pack())
-      .pipe(octo.push({apiKey: 'API-VKAMXEW1F3NQOPSJIPQVKEQPX0', host: 'http://anders2014:8040'}));
+      .pipe(octo.push({apiKey: 'API-VKAMXEW1F3NQOPSJIPQVKEQPX0', host: 'http://anders2014:8040', replace: true}));
 });
