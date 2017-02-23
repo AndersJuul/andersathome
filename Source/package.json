@@ -1,8 +1,8 @@
 {
-  "name": "andersathome",
+  "name": "andersathomeweb",
   "author": "Anders Juul",
   "description": "Home Home Page",
-  "version": "1.0.1",
+  "version": "2.0.5",
   "scripts": {
     "start": "tsc && concurrently \"npm run tsc:w\" \"npm run lite\" ",
     "lite": "lite-server",
@@ -38,7 +38,8 @@
     "grunt-contrib-qunit": "",
     "grunt-contrib-concat": "",
     "grunt-contrib-jshint": "",
-    "grunt-contrib-watch": ""
+    "grunt-contrib-watch": "",
+    "gulp": "^3.9.0"
   },
   "devDependencies": {
     "@octopusdeploy/grunt-octo": "0.0.49",
@@ -46,7 +47,6 @@
     "concurrently": "^2.0.0",
     "grunt-bump": "^0.8.0",
     "grunt-contrib-clean": "^1.0.0",
-    "gulp": "^3.9.0",
     "gulp-bump": "^2.7.0",
     "gulp-clean": "^0.3.1",
     "gulp-concat": "^2.6.0",
