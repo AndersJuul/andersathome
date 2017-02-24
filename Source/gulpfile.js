@@ -41,7 +41,7 @@ gulp.task('clean-public', function () {
 
 gulp.task('bump', function(){
   return gulp.src('./package.json')
-      .pipe(bump({type: 'patch'}))
+      //.pipe(bump({type: 'patch'}))
       .pipe(gulp.dest('./'));
 });
  
