@@ -17,7 +17,7 @@ var FirstComponent = (function () {
     FirstComponent = __decorate([
         core_1.Component({
             selector: 'my-firstcomponent',
-            template: "\n    <h2>{{first.content}}</h2>\n    <h2 [innerText]=\"first.content\"></h2>\n    <h1 [style.color]=\"color\">{{first.content}}</h1>\n  "
+            template: "\n    <p class=\"well\">{{first.content}}</p>\n    <h2 class=\"icon-search\" [innerText]=\"first.content\"></h2>\n    <h1 [style.color]=\"color\">{{first.content}}</h1>\n  "
         }), 
         __metadata('design:paramtypes', [])
     ], FirstComponent);
