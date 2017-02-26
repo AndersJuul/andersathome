@@ -5,6 +5,7 @@ import { HttpModule } from '@angular/http'
 
 import { AppComponent } from './app.component';
 import { FirstComponent } from './first.component';
+import { SecondComponent } from './second.component';
 import { NavBarComponent } from './navbar.component'
 
 import { appRoutes } from './routes'
@@ -13,7 +14,7 @@ import { Routes } from '@angular/router'
 @NgModule({
 	imports: [BrowserModule, RouterModule.forRoot(appRoutes), HttpModule ],
 	declarations: [
-		AppComponent, NavBarComponent, FirstComponent
+		AppComponent, NavBarComponent, FirstComponent,SecondComponent
 	],
 	providers: [
 	],
