@@ -17,7 +17,7 @@ var tsProject = ts.createProject("tsconfig.json");
 gulp.task("compile", function () {
     return tsProject.src()
         .pipe(tsProject())
-        .js.pipe(gulp.dest("dist"));
+        .pipe(gulp.dest("dist"));
 });
 gulp.task('less', function() {
   return gulp.src('./src/less/**/*.less')
