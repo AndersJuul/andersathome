@@ -10,7 +10,15 @@ var gulp = require('gulp'),
     jsmin = require('gulp-jsmin'),
     concat = require('gulp-concat'),
     clean = require('gulp-clean');
+var ts = require("gulp-typescript");
 
+var tsProject = ts.createProject("tsconfig.json");
+
+gulp.task("compile", function () {
+    return tsProject.src()
+        .pipe(tsProject())
+        .js.pipe(gulp.dest("dist"));
+});
 gulp.task('less', function() {
   return gulp.src('./src/less/**/*.less')
       .pipe(less())
@@ -27,7 +35,7 @@ gulp.task('scripts', function() {
       .pipe(gulp.dest('./public/js/'));
 });
 
-gulp.task('build', ['less', 'scripts']);
+gulp.task('build', ['compile','less', 'scripts']);
 
 gulp.task('default', ['less', 'scripts'], function() {
   gulp.watch('./src/less/**/*.less', ['less']);
