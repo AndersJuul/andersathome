@@ -35,7 +35,7 @@ gulp.task('scripts', function() {
       .pipe(gulp.dest('./public/js/'));
 });
 
-gulp.task('build', ['compile','less', 'scripts']);
+gulp.task('build', ['less', 'scripts']);
 
 gulp.task('default', ['less', 'scripts'], function() {
   gulp.watch('./src/less/**/*.less', ['less']);
