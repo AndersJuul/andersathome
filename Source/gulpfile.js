@@ -54,7 +54,7 @@ gulp.task('bump', function(){
 });
  
 gulp.task('publish', ['build'], function () {
-  return gulp.src(['**/*.js', '**/*.html','**/*.json','**/*.css','!bin{,/**}', '!src{,/**}', '!gulpfile.js'])
+  return gulp.src(['**/*.js', '**/*.html','**/*.ico','**/*.json','**/*.css','!bin{,/**}', '!src{,/**}', '!gulpfile.js'])
       .pipe(octo.pack())
       .pipe(octo.push({apiKey: 'API-VKAMXEW1F3NQOPSJIPQVKEQPX0', host: 'http://anders2014:8040', replace: true}));
 });
