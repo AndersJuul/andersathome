@@ -1,0 +1,12 @@
+{
+    "git.confirmSync": false,
+    "files.exclude": {
+        "**/.git": true,
+        "**/.svn": true,
+        "**/.hg": true,
+        "**/*.js": {"when": "$(basename).ts"},
+        "**/*.js.map": true,
+        "**/.DS_Store": true,
+        "**/node_modules/**":true
+       }
+}
