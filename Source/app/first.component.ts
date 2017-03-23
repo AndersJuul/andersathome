@@ -9,6 +9,6 @@ import { Component } from '@angular/core';
   `
 })
 export class FirstComponent {
-    first = { content: 'Angular 2 Start' };
+    first = { content: 'First' };
     color = 'green';
 }
