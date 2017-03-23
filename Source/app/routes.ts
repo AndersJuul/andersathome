@@ -1,8 +1,10 @@
 import { Routes } from '@angular/router'
-import { FirstComponent } from './first.component';
-import { SecondComponent } from './second.component';
+import { HomeComponent } from './home.component';
+import { BackupComponent } from './backup.component';
+import { ContactComponent } from './contact.component';
 
 export const appRoutes: Routes = [
-	{ path: 'events', component: SecondComponent, pathMatch: 'full' },
-	{ path: '', component: FirstComponent, pathMatch: 'full' }
+	{ path: 'backup', component: BackupComponent, pathMatch: 'full' },
+	{ path: 'kontakt', component: ContactComponent, pathMatch: 'full' },
+	{ path: '', component: HomeComponent, pathMatch: 'full' }
 ]

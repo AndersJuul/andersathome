@@ -4,8 +4,8 @@ import { RouterModule } from '@angular/router'
 import { HttpModule } from '@angular/http'
 
 import { AppComponent } from './app.component';
-import { FirstComponent } from './first.component';
-import { SecondComponent } from './second.component';
+import { HomeComponent } from './home.component';
+import { BackupComponent } from './backup.component';
 import { NavBarComponent } from './navbar.component'
 
 import { appRoutes } from './routes'
@@ -14,7 +14,7 @@ import { Routes } from '@angular/router'
 @NgModule({
 	imports: [BrowserModule, RouterModule.forRoot(appRoutes), HttpModule ],
 	declarations: [
-		AppComponent, NavBarComponent, FirstComponent,SecondComponent
+		AppComponent, NavBarComponent, HomeComponent, BackupComponent
 	],
 	providers: [
 	],
