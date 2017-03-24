@@ -4,8 +4,14 @@ import { Component } from '@angular/core';
   selector: 'my-app',
   template: `
     <nav-bar></nav-bar>
-    <img class="main-img" src="/media/a_skotland.jpg" />
-	  <router-outlet></router-outlet>
+    <span class="col-md-2">
+      <img  src="/media/a_skotland.jpg" />
+    </span>
+    <span class="col-md-6">
+      <router-outlet></router-outlet>
+    </span>
+    
+	  
 	`,
 })
 export class AppComponent  { name = 'Angular ' + new Date().toLocaleTimeString(); }

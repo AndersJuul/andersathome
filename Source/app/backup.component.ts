@@ -3,7 +3,7 @@ import { Component } from '@angular/core';
 @Component({
     selector: 'backup-component',
     template: `
-    <div class="container">
+    <div >
         <h2 class="well">Backup!</h2>
 
         <p>Siden jeg har fået børn har jeg som alle andre taget et stigende antal fotos. De senere år er det blevet til ca 6000 om året og antallet stiger. Billederne er mit kæreste eje og må for alt i verden ikke gå tabt.</p>

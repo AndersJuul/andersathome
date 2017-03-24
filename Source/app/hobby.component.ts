@@ -3,10 +3,10 @@ import { Component } from '@angular/core';
 @Component({
     selector: 'hobby-component',
     template: `
-    <div class="container">
+    <span class="container">
         <h2 class="well">Hobby-projekter!</h2>
 
-    </div>
+    </span>
   `
 })
 export class HobbyComponent {
