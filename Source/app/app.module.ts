@@ -19,7 +19,7 @@ import { Routes } from '@angular/router'
 @NgModule({
 	imports: [
 		BrowserModule,
-		RouterModule.forRoot(appRoutes), 
+		RouterModule.forRoot(appRoutes, { useHash:true}), 
 		HttpModule, 
 		FormsModule 
 		],
