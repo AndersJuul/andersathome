@@ -19,7 +19,7 @@ import { Router } from '@angular/router'
             </div>
                 
             <button type="submit" class="btn btn-primary">Login</button>
-            <button type="button" class="btn btn-default">Cancel</button>
+            <button type="button" class="btn btn-default" (click)="cancel()">Cancel</button>
         </form>
         </div>  `
 })
@@ -30,6 +30,9 @@ export class LoginComponent {
 
     login(formValues){
         this.authService.loginUser(formValues.userName, formValues.password);
+        this.router.navigate([''])
+    }
+    cancel(){
         this.router.navigate([''])
     }
 }
