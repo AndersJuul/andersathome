@@ -17,14 +17,12 @@ import { Component } from '@angular/core';
             <li>Brug gerne I-drive, Google-drive, dropbox etc, men det kan ikke gøre det ud for backup. Hvis du sletter en fil lokalt er det sekundet efter slettet de andre steder. Dropxbox tager backup af det som du har liggende i skyen, så det kan genskabes, men det er ikke en strategi som jeg vil anbefale. Den gratis udgave tilbyder desuden langt mindre plads end jeg har brug for :)</li>
         </ol>
 
-        <p>Jeg har en del gange oplevet, at venner og bekendte har mistet skattet indhold fra computere. Grundene er forskellige, men jeg forsøger at beskytte mig mod:
-        </p>
-            <ul>
-                <li>Elektronik-nedbrud -- hvis din harddisk går helt i stykker er det faktisk nok med Dropbox etc</li>
-                <li>Virus -- en af mine kolleger fik en afpresningsvirsus sin pc. Alle fotos og dokumenter blev krypteret og kun ved at betale kunne han få dem gjort læsbare igen. Selv hvis man betaler er der ingen sikkerhed for at man får sine filer tilbage... Min kollega havde heldigvis backup! Hvis en usbdisk havde været forbundet til pc'en da den blev angrebet, var backupfilerne formodentlig også blevet krypteret.</li>
-                <li>Tyveri -- hvis der er indbrud i mit hus er computeren omtrent det eneste af værdi. Og så er det vigtigt at den eneste backup ikke ligger og frister lige ved siden af pcen.</li>
-                <li></li>
-            </ul>
+        <p>Jeg har en del gange oplevet, at venner og bekendte har mistet skattet indhold fra computere. Grundene er forskellige, men jeg forsøger at beskytte mig mod:</p>
+        <ul>
+            <li>Elektronik-nedbrud -- hvis din harddisk går helt i stykker er det faktisk nok med Dropbox etc</li>
+            <li>Virus -- en af mine kolleger fik en afpresningsvirsus sin pc. Alle fotos og dokumenter blev krypteret og kun ved at betale kunne han få dem gjort læsbare igen. Selv hvis man betaler er der ingen sikkerhed for at man får sine filer tilbage... Min kollega havde heldigvis backup! Hvis en usbdisk havde været forbundet til pc'en da den blev angrebet, var backupfilerne formodentlig også blevet krypteret.</li>
+            <li>Tyveri -- hvis der er indbrud i mit hus er computeren omtrent det eneste af værdi. Og så er det vigtigt at den eneste backup ikke ligger og frister lige ved siden af pcen.</li>
+        </ul>
     </div>
   `
 })

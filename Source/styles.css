@@ -7,4 +7,6 @@ ol {
 .main-img{
     padding-top: 30px;
     padding-left: 15px;
+    width: 95%;
+    max-width: 200px;
 }

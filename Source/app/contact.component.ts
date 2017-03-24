@@ -3,7 +3,7 @@ import { Component } from '@angular/core';
 @Component({
     selector: 'contact-component',
     template: `
-    <div class="container">
+    <div >
         <h2 class="well">Kontakt</h2>
         
         <p>Anders Juul<br>
