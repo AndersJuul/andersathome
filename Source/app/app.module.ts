@@ -10,18 +10,33 @@ import { AppComponent } from './app.component';
 import { HomeComponent } from './home.component';
 import { BackupComponent } from './backup.component';
 import { LoginComponent } from './login.component';
+import { ContactComponent } from './contact.component';
+import { HobbyComponent } from './hobby.component';
 
 import { appRoutes } from './routes'
 import { Routes } from '@angular/router'
 
 @NgModule({
-	imports: [BrowserModule, RouterModule.forRoot(appRoutes), HttpModule, FormsModule ],
+	imports: [
+		BrowserModule,
+		RouterModule.forRoot(appRoutes), 
+		HttpModule, 
+		FormsModule 
+		],
 	declarations: [
-		AppComponent, NavBarComponent, HomeComponent, BackupComponent, LoginComponent
+		AppComponent, 
+		NavBarComponent, 
+		HomeComponent, 
+		HobbyComponent,
+		ContactComponent,
+		BackupComponent, 
+		LoginComponent
 	],
 	providers: [
 	],
-	bootstrap: [AppComponent]
+	bootstrap: [
+		AppComponent
+		]
 })
 export class AppModule {
 }
