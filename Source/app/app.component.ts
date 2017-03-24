@@ -5,7 +5,7 @@ import { Component } from '@angular/core';
   template: `
     <nav-bar></nav-bar>
     <span class="col-md-2">
-      <img  src="/media/a_skotland.jpg" />
+      <img class="main-img" src="/media/a_skotland.jpg" />
     </span>
     <span class="col-md-6">
       <router-outlet></router-outlet>

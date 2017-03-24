@@ -29,9 +29,4 @@ import { Component } from '@angular/core';
   `
 })
 export class BackupComponent {
-    first = { content: 'Backup' };
-    color = 'red';
-    getCurrentAge = function(){
-        return new Date().getFullYear()-1969;
-    }
 }
