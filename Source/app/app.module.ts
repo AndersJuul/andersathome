@@ -14,7 +14,7 @@ import { ContactComponent } from './contact.component';
 import { HobbyComponent } from './hobby.component';
 import { AuthService } from './auth.service'
 import { appRoutes } from './routes'
-import { Routes } from '@angular/router'
+//import { Routes } from '@angular/router'
 
 @NgModule({
 	imports: [
