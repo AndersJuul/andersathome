@@ -6,7 +6,8 @@ import { Component } from '@angular/core';
     <span >
         <h2 class="well">Velkommen...</h2>
         <p>Dette site er lavet til hobby-projekter, typisk teknik-afprøvning og gateway til iot i mit og pigernes hjem.</p>
-        <p>For tiden leger jeg med TeamCity, Octopus Deploy, Angular2/TypeScript, RabbitMq, REST APIs, IdentityServer3 og Micro Services.
+        <p>For tiden leger jeg med TeamCity, Octopus Deploy, Angular2/TypeScript, RabbitMq, REST APIs, IdentityServer3/OIDC og Micro Service, primært gennem s gennem 
+        hobbyprojektet <a href="https://andersathome.dk/RideShare" target="_blank">RideShare</a>.</p>
         Hjemmets maskiner er blevet samlet under Hyper-V på en enkelt Server 2016. Det hygges der med når børnene er kommet i seng :).</p>
         <p>For et kig på mit professionelle liv, kig over på <a href="http://andersjuulsfirma.dk/" target="_blank">http://andersjuulsfirma.dk</a></p>
     </span>
